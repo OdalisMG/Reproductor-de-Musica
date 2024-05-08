@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R Y T H M E</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #303030;
+      color: #050505;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url(https://images.unsplash.com/photo-1616712134411-6b6ae89bc3ba?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      animation: animation 100s linear infinite;
+    }
+
+    
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+    .login-form {
+      background-color: #e2e1e1;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      width: 300px;
+      margin:auto;
+      margin:right;
+      opacity: value;
+    }
+    .login-form h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-form input[type="email"], .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .login-form input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    .login-form button {
+      background-color: #121312;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px;
+      width: 100%;
+    }
+    .login-form button:hover {
+      background-color: #0f0f0f;
+    }
+    .login-form a {
+      color: #111111;
+      display: block;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .login-form a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-form">
+    <h1>R Y T H M E</h1>
+    <input type="email" placeholder="Correo electrónico o nombre de usuario">
+    <input type="password" placeholder="Contraseña">
+    <button type="submit">Iniciar sesión</button>
+    <a href="#">¿Se te ha olvidado la contraseña?</a>
+    <a href="#">¿No tienes cuenta? Suscríbete a Rythme</a>
+  </div>
+  <script src="../src/login.js"></script>
+</body>
+</html>
